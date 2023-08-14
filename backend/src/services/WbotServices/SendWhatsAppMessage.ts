@@ -1,4 +1,4 @@
-import { WAMessage } from "@adiwajshing/baileys";
+import { WASocket, WAMessage } from "@adiwajshing/baileys";
 import WALegacySocket from "@adiwajshing/baileys"
 import * as Sentry from "@sentry/node";
 import AppError from "../../errors/AppError";
