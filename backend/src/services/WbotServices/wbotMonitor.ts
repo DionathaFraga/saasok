@@ -100,12 +100,12 @@ const wbotMonitor = async (
       }
     });
 
-    wbot.ev.on("contacts.upsert", async (contacts: BContact[]) => {
-      console.log("upsert", contacts);
+    // wbot.ev.on("contacts.upsert", async (contacts: BContact[]) => {
+    // console.log("upsert", contacts);
       await createOrUpdateBaileysService({
         whatsappId: whatsapp.id,
         contacts,
-      });
+    // });
     });
 
   } catch (err) {
