@@ -8,7 +8,7 @@ import makeWASocket, {
   makeInMemoryStore,
   isJidBroadcast
 } from "@adiwajshing/baileys";
-import makeWALegacySocket from "@adiwajshing/baileys";
+import WASocket from "@adiwajshing/baileys";
 import P from "pino";
 
 import Whatsapp from "../models/Whatsapp";
